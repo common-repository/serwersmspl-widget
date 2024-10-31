@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+#serwersms-header{
+    width: auto;
+    height: 70px;
+    margin-right: 20px;
+    background: url('../image/logo.png') no-repeat #df2027;
+}
+
+.panel{
+    overflow: hidden;
+}
+
+.panel .col{
+    width: 33%;
+    float: left;
+}
+
+dl{
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+dl dt{
+    display: block;
+    clear: both;
+    float: left;
+}
+
+dl dd {
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+
+.params-cont {
+  border: 3px solid #ebebeb;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: block;
+  background: #fff;
+}
+
+.params-row{
+    border-bottom: 1px solid #eee;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    display: block;
+    overflow: hidden;
+}
+
+.param-name{
+    background: #f2f2f2;
+    text-align: right;
+    padding: 10px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #222;
+    width: 300px;
+    float: left;
+}
+
+.param-value{
+    padding: 10px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #222;
+    float: left;
+}
+
+.param-value a{
+    color: #666;
+}
+
+
+
+/* button */
+
+.serwersms-button {
+  text-transform: uppercase;
+  overflow: visible;
+  color: #fff !important;
+  white-space: nowrap;
+  background-color: #D5262A;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 10px;
+  padding: 10px 10px 10px 10px;
+  height: 10px;
+  margin: 0 0px 5px 0px;
+}
+.serwersms-button:before {
+  border-right: 0 none;
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #D5262A;
+  right: -15px;
+  margin-top: -15px;
+}
+
+.serwersms-button:before {
+  left: auto;
+  background-color: transparent;
+}
+.serwersms-button:hover {
+  background-color: #f62930;
+  text-decoration: none !important;
+}
+.serwersms-button:hover:after,
+.serwersms-button:hover:before {
+  border-left-color: #f62930;
+  border-right-color: #f62930;
+}
+
+
+#account {
+  border: 3px solid #ebebeb;
+  position: relative;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+#account .contact {
+  background-color: #f2f2f2;
+  position: relative;
+  padding-top: 15px;
+  padding-left: 90px;
+  height: 85px;
+  width: 230px;
+}
+#account .contact:before {
+  border-bottom: 45px solid transparent;
+  border-top: 45px solid transparent;
+  border-left: 45px solid #f2f2f2;
+  border-right: 0 none;
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -45px;
+  margin-top: -45px;
+}
+
+#account .contact:before {
+  border-top: 0;
+  margin-top: 0;
+  top: 20px;
+}
+#account .contact img {
+  display: block;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: auto;
+  right: auto;
+  bottom: auto;
+}
+#account .contact .name{
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  color: #222;
+  font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+#account .contact .mail,
+#account .contact .phone,
+#account .contact .vcard {
+  position: relative;
+  margin-left: 0px;
+  clear: none;
+}
+#account .contact .mail a,
+#account .contact .phone a,
+#account .contact .vcard a{
+  text-decoration: none;
+  line-height: 24px;
+  color: #666;
+}
+
+#account .contact-descr{
+  position: absolute;
+  top: 10px;
+  left: 380px;
+}
+#account .contact-descr .t1 {
+  text-transform: uppercase;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #222;
+  margin-bottom: 5px;
+}
+#account .contact-descr .t2 {
+  font-style: italic;
+}

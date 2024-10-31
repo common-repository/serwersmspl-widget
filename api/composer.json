@@ -1,0 +1,12 @@
+{
+    "name": "serwersms/wordpress-plugin",
+    "version": "1.0.0",
+    "description": "SerwerSMS Wordpress plugin",
+    "keywords": ["serwersms", "wordpress"],
+    "type": "library",
+    "require": {
+        "serwersms/serwersms-php-client": "1.0.*",
+        "php": ">=5.3.0",
+        "lib-curl": ">=7.1"
+    }
+}
